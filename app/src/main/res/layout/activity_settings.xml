@@ -35,38 +35,20 @@
         android:padding="6dp"
         ></EditText>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/set_profile_status"
-        android:layout_below="@+id/set_user_name"
-        android:hint="Hey, there!"
-        android:inputType="textMultiLine"
-        android:textAlignment="center"
-        android:drawableLeft="@drawable/edit_status"
-        android:background="@drawable/inputs"
-        android:textStyle="bold"
-        android:textColor="@color/colorPrimaryDark"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="10dp"
-        android:padding="6dp"
-        ></EditText>
-
     <Button
+        android:id="@+id/setting_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/setting_button"
         android:layout_below="@+id/set_profile_status"
-        android:text="Save"
-        android:inputType="textMultiLine"
-        android:textAlignment="center"
-        android:background="@drawable/buttons"
-        android:textStyle="bold"
-        android:textColor="@android:color/background_light"
+        android:layout_centerInParent="true"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:inputType="textMultiLine"
+        android:text="Save"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
         android:textSize="18sp"
-        ></Button>
+        android:textStyle="bold"></Button>
 </RelativeLayout>
